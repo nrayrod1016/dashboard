@@ -2,15 +2,14 @@ import './App.css';
 
 function Visitors() { 
     return ( 
-        <div class="topRow"> 
+        <div className ="topRow"> 
             <h4> Website Visitors</h4>
             <h1> 821 </h1>
-            <div class='shadow'> 
+            <div className ='shadow'> 
         
             </div>
         </div>
     )
  }
- 
  
  export default Visitors
