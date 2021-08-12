@@ -2,7 +2,10 @@
   text-align: center;
 }
 
-
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -40,8 +43,8 @@ body {
   padding: 0; 
   }
   
-  .sidebar { 
-    background-color: #e1ded7; 
+  .nav { 
+    background-color: #716f6b; 
     width: 25%; 
     border: 1px solid #666; 
     height: max-content; 
@@ -49,18 +52,16 @@ body {
   .sidebar { 
     list-style-type: none; 
     margin: 0; 
-    margin-bottom: 100px;
     padding: 0; 
   }
   
   .items { 
     display: block; 
-   padding: .5rem; 
+   padding: 1rem; 
     text-decoration: none; 
     color: #2c3e57; 
     font-weight: bold; 
-    border-bottom: 10px solid #666; 
-    border: none;
+    border-bottom: 1px solid #666; 
   }
   
   .items:hover { 
@@ -72,47 +73,23 @@ body {
    
   .app { 
     display: flex; 
-   margin: 100px;
-   
-
+    
   }
 
   .board { 
     display: flex; 
     flex-direction: column;
-    /* margin: 100px; */
-    border: 2px solid black;
     
   }
 
   .top-bar { 
     display: flex; 
-    margin: 200px;
-    padding: 50px; 
-    
       /* flex-direction: row; default behavior for flex*/
-      border: 2px solid black;
-
+      justify-content: space-between;
+      margin: 1px; 
+      margin-left: 5px;
   }
   .bottom-bar{
     display: flex; 
-    
-    padding: 100px; 
-    padding-bottom: 200px;
     /* flex-direction: row; default behavior for flex*/
-    border: 2px solid black;
-  }
-
-  .box {
-    background-color: rgb(160, 157, 157);
-    border: 2px solid black;
-    margin-right: 100px;
-    padding: 100px; 
-    text-align: top;
-    
-  }
-
-  .shadow { 
-    
-    border: 200px solid rgb(160, 157, 157);
   }

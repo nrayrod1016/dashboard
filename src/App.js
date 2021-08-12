@@ -1,8 +1,8 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Reviews from './reviews'
 import Ratings from './ratings'
-import Analysis from './analysis'
+import Analysis from './Analysis'
 import Visitors from './visitors'
 
 function App() {

@@ -3,10 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Reviews from './reviews'
-import Ratings from './ratings'
-import Analysis from './analysis'
-import Visitors from './visitors'
+// import Reviews from './reviews'
+// import Ratings from './ratings'
+// import Analysis from './analysis'
+// import Visitors from './visitors'
 
 ReactDOM.render(
   <React.StrictMode>
