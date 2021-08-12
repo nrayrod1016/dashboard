@@ -89,6 +89,42 @@ body {
       margin: 1px; 
       margin-left: 5px;
   }
+
+  .box1 { 
+    background-color: lightgrey;
+    width: 22vmax;
+    height: 22vmax;
+    position: fixed;
+    left: 500px;
+  }
+
+  .box2 { 
+    text-align: left;
+    background-color: lightgrey;
+    width: 22vmax;
+    height: 22vmax;
+    position: fixed;
+    left: 750px;
+  }
+
+  .box3 { 
+    background-color: lightgrey;
+    width: 22vmax;
+    height: 22vmax;
+    position: fixed;
+    left: 200px
+
+  }
+
+  .box4 { 
+
+    background-color: lightgrey;
+    height: 66vmax;
+    width: 72vmax;
+    position: fixed;
+    left: 300px;
+    margin-top: 360px
+  }
   .bottom-bar{
     display: flex; 
     /* flex-direction: row; default behavior for flex*/

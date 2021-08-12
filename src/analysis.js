@@ -2,7 +2,7 @@ import './App.css';
 
 function Analysis() { 
     return ( 
-        <div className ="box">  
+        <div className ="box3">  
             <h4> Sentiment Analysis</h4>
             <h3> 960 </h3>
             <h3> 122 </h3>
